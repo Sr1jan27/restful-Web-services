@@ -45,4 +45,8 @@ public class UserDaoService {
 		return users.stream().filter(predicate).findFirst().orElse(null);
 	}
 
+	public void deleteUserById(User user) {
+		users.remove(user);
+	}
+
 }
