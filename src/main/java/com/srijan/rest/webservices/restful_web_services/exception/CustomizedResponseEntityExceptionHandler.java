@@ -34,7 +34,7 @@ public class CustomizedResponseEntityExceptionHandler extends ResponseEntityExce
 		ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), 
 				ex.getMessage(), request.getDescription(false));
 		
-		return new ResponseEntity<ErrorDetails>(errorDetails, HttpStatus.NOT_FOUND) ;
+		return new ResponseEntity<ErrorDetails>(errorDetails, HttpStatus.NOT_FOUND);
 		
 	}
 	
