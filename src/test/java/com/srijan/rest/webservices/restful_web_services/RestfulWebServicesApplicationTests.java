@@ -12,6 +12,13 @@ class RestfulWebServicesApplicationTests {
 		//
 		// code to find the row in matrix whixh has max ones in it 
 		public int countOnes(int[][] arr){
+			// initialisation
+			int m = arr.length;
+			int n = arr[0].length;
+			int maxOnes = 0;
+			int maxOnesRow = -1;
+
+			
 			return 0;
 		}
 	}
