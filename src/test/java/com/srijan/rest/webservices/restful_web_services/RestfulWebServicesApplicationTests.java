@@ -33,8 +33,8 @@ class RestfulWebServicesApplicationTests {
 				}
 			}
 
-			
-			return 0;
+			// return 
+			return maxOnesRow;
 		}
 	}
 
