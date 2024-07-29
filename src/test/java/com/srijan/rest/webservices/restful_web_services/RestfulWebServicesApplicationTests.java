@@ -18,6 +18,21 @@ class RestfulWebServicesApplicationTests {
 			int maxOnes = 0;
 			int maxOnesRow = -1;
 
+			// logic 
+
+			for(int i=0;i<m;i++){
+				int countOne = 0;
+				for(int j=0;j<n;j++){
+					if(arr[i][j]==1)
+						countOne++;
+				}
+
+				if( countOne>maxOnes){
+					maxOnes = countOne;
+					maxOnesRow = i;
+				}
+			}
+
 			
 			return 0;
 		}
