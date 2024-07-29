@@ -10,6 +10,10 @@ class RestfulWebServicesApplicationTests {
 	void contextLoads() {
 		//
 		//
+
+		public int countOnes(int[][] arr){
+			return 0;
+		}
 	}
 
 }
